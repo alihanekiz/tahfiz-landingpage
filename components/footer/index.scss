@@ -1,0 +1,12 @@
+footer {
+    background-color: #1e272e;
+    position: relative;
+    z-index: 9;
+    img {
+      object-fit: cover;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+  }

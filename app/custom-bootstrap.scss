@@ -1,0 +1,9 @@
+// styles/custom-bootstrap.scss
+
+// Override variables
+$primary: #4c9f97;
+$secondary: #6c757d;
+$dark: #000000;
+
+// Import Bootstrap
+@import 'bootstrap/scss/bootstrap';

@@ -1,0 +1,33 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+@keyframes countdownChange {
+    from {
+      transform: scale(1);
+      opacity: 0.5;
+    }
+    to {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+  }
+  
+  .card-title {
+    display: inline-block;
+    animation: countdownChange 0.3s ease-in-out;
+  }
+
+  .card {
+    background: rgb(76,159,151);
+    background: radial-gradient(circle, rgba(76,159,151,1) 35%, rgba(18,175,159,1) 100%);
+  }
+  
+  .countdown {
+    animation: fadeIn 1s ease-in-out;
+  }
