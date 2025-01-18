@@ -1,0 +1,22 @@
+.sticky-buttons {
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999 !important;
+    .col-6, .row, .container {
+        height: 100%;
+        position: relative;
+    }
+    a {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
