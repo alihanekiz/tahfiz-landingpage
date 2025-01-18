@@ -46,11 +46,8 @@ const Countdown: React.FC<CountdownProps> = ({ eventDate }) => {
   }, [eventDate]);
 
   return (
-    <motion.div 
-        className="container countdown text-center py-5"
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}>
+    <div 
+        className="container countdown text-center py-5">
       <h2 className="display-4 mb-4">Hafızlık Merasimine kalan süre</h2>
       <div className="row justify-content-center">
         {['Gün', 'Saat', 'Dakika', 'Saniye'].map((unit, index) => (
@@ -70,7 +67,7 @@ const Countdown: React.FC<CountdownProps> = ({ eventDate }) => {
           </motion.div>
         ))}
       </div>
-    </motion.div>
+    </div>
   );
 };
 
