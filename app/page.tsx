@@ -4,7 +4,6 @@ import Hero from "@/components/hero";
 import ParkingInfo from "@/components/parking-info";
 import ProgramBlock from "@/components/program-block";
 import StickyButtons from "@/components/sticky-buttons";
-import BorderPattern from '@/public/branding/border-pattern.svg';
 
 export default function Home() {
   return (
