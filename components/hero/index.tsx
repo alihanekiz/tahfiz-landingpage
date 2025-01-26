@@ -7,7 +7,7 @@ export default function Hero() {
         <h1>Hafızlık Merasimine hoşgeldiniz.</h1>
         <div className="d-flex my-3">
           <a href="#program" className="btn btn-primary">Program</a>
-          <a href="#" className="btn btn-secondary mx-2">Park imkanları</a>
+          <a href="#parking" className="btn btn-secondary mx-2">Park imkanları</a>
         </div>
       </div>
     </div>
