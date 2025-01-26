@@ -28,16 +28,16 @@ export default function Nav() {
             <nav>
               <ul className="list-unstyled d-flex p-0 m-0">
                 <li onClick={closeMenu}>
-                  <a href="#">Konum</a>
+                  <a href="#location">Konum</a>
                 </li>
                 <li onClick={closeMenu}>
-                  <a href="#">Oturma düzeni</a>
+                  <a href="#seat">Oturma düzeni</a>
                 </li>
                 <li onClick={closeMenu}>
-                  <a href="#">Park imkanlari</a>
+                  <a href="#parking">Park imkanlari</a>
                 </li>
                 <li onClick={closeMenu}>
-                  <a href="#">Program</a>
+                  <a href="#program">Program</a>
                 </li>
               </ul>
             </nav>

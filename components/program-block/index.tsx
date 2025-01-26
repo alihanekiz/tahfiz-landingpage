@@ -1,22 +1,51 @@
 "use client";
 import "./index.scss";
+import { motion } from 'framer-motion';
+import BorderPattern from '@/public/branding/border-pattern.svg';
+
 
 export default function ProgramBlock() {
     return (
-        <div className="program-block" id="program">
+        <motion.div
+            key={1}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.8, duration: 0.6 }}
+            className="program-block py-3 py-lg-5" 
+            id="program">
             <div className="container">
-                <div className="row">
-                    <div className="col-12 col-lg-6">
-                        <h2>Program</h2>
+                <BorderPattern/>
+                <div className="row py-4 px-3">
+                    <div className="col-12 col-lg-6 d-flex flex-column">
+                        <h2 className="text-primary fw-bold">Program</h2>
+                        <p>Programımız ücretsizdir ve 2,5 saat sürecektir.</p>
                     </div>
-                    <div className="col-12 col-lg-6">
-                        <div className="w-100 d-flex justify-content-between">
-                            <div>Test</div>
-                            <div>17:00-18:00</div>
+                    <div className="col-12 col-lg-6 py-4 py-lg-0">
+                        <div className="w-100 d-flex justify-content-between pb-2">
+                            <div className="fw-bold">Kurra hafızlarindan Kuran-ı-Kerim tilaveti</div>
+                            <div className="time">19:00-19:15</div>
+                        </div>
+                        <div className="w-100 d-flex justify-content-between pb-2">
+                            <div className="fw-bold">Hafızlaridan ilahi ziyafeti</div>
+                            <div className="time">19:15-19:30</div>
+                        </div>
+                        <div className="w-100 d-flex justify-content-between pb-2">
+                            <div className="fw-bold">Mezun hafızlarimizdan kısa sureler</div>
+                            <div className="time">19:30-20:00</div>
+                        </div>
+                        <div className="w-100 d-flex justify-content-between pb-2">
+                            <div className="fw-bold">Sohbet</div>
+                            <div className="time">20:00-21:00</div>
+                        </div>
+                        <div className="w-100 d-flex justify-content-between pb-2">
+                            <div className="fw-bold">Duâ</div>
+                            <div className="time">21:00-21:15</div>
                         </div>
                     </div>
                 </div>
+                <BorderPattern/>
             </div>
-        </div>
+        </motion.div>
     )
 }
