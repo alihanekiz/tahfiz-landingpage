@@ -24,23 +24,23 @@ export default function ProgramBlock() {
                     <div className="col-12 col-lg-6 py-4 py-lg-0">
                         <div className="w-100 d-flex justify-content-between pb-2">
                             <div className="fw-bold">Kurra hafızlarindan Kuran-ı-Kerim tilaveti</div>
-                            <div className="time">19:00-19:15</div>
+                            <div className="time">19:00-19:45</div>
                         </div>
                         <div className="w-100 d-flex justify-content-between pb-2">
                             <div className="fw-bold">Hafızlaridan ilahi ziyafeti</div>
-                            <div className="time">19:15-19:30</div>
-                        </div>
-                        <div className="w-100 d-flex justify-content-between pb-2">
-                            <div className="fw-bold">Mezun hafızlarimizdan kısa sureler</div>
-                            <div className="time">19:30-20:00</div>
+                            <div className="time">19:45-20:15</div>
                         </div>
                         <div className="w-100 d-flex justify-content-between pb-2">
                             <div className="fw-bold">Sohbet</div>
-                            <div className="time">20:00-21:00</div>
+                            <div className="time">20:15-20:45</div>
                         </div>
                         <div className="w-100 d-flex justify-content-between pb-2">
-                            <div className="fw-bold">Duâ</div>
-                            <div className="time">21:00-21:15</div>
+                            <div className="fw-bold">Duâ ve hediye takdimi</div>
+                            <div className="time">20:45-21:15</div>
+                        </div>
+                        <div className="w-100 d-flex justify-content-between pb-2">
+                            <div className="fw-bold">Kapanış Konuşması</div>
+                            <div className="time">21:15-21:30</div>
                         </div>
                     </div>
                 </div>
