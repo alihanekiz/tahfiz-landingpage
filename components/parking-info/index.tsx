@@ -75,17 +75,8 @@ export default function ParkingInfo() {
             </div>
 
             <div className="col-12 col-lg-6 d-flex flex-column py-5 py-lg-0" id="kermes">
-              <h2 className="text-primary fw-bold py-2">Kermes Alanına Nasıl Giderim?</h2>
-              <p>Kermes alanına ulaşmak için aşağıdaki navigasyon butonuna tıklayınız:</p>
-              <p>Not: Ikramimiz sadece pasta ve kahveden olusuyor.</p>
-              <a
-                className="btn btn-primary"
-                href="https://maps.app.goo.gl/rcR5fbzp2JZbcWh48?g_st=iw"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Kermes Konumu
-              </a>
+              <h2 className="text-primary fw-bold py-2">Bu programda ikram var mı?</h2>
+              <p>Program öncesi ve program sonrası kafeterya bölümünde ikram olacaktır.</p>
             </div>
           </div>
         </div>
