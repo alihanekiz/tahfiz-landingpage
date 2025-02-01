@@ -22,7 +22,7 @@ export default function ParkingInfo() {
                     <div className="col-12 col-lg-6 d-flex flex-column py-5 py-lg-0" id="location">
                         <h2 className="text-primary fw-bold py-2">Merasim Alanına Nasıl Ulaşırım?</h2>
                         <p>Merasim alanına ulaşmak için aşağıdaki navigasyon butonuna tıklayınız:</p>
-                        <a className="btn btn-primary" href="https://maps.app.goo.gl/rcR5fbzp2JZbcWh48?g_st=iw" target="_blank">Merasim Konumu</a>
+                        <a className="btn btn-primary" href="https://www.google.com/maps?sca_esv=f56a266850138bc2&lsig=AB86z5UxwMRtsMPHS9-i6N2suk9Z&biw=1720&bih=946&dpr=2&um=1&ie=UTF-8&fb=1&gl=at&sa=X&geocode=KSV1xJt8Bm1HMYakhdmV25nq&daddr=Angerer+Str.+14,+1210+Wien" target="_blank">Merasim Konumu</a>
                     </div>
                     <div className="col-12 col-lg-6 d-flex flex-column" id="seat">
                         <h2 className="text-primary fw-bold py-2">Koltuk Yerim Nerede?</h2>

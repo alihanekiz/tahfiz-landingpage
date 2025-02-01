@@ -16,7 +16,7 @@ export default function Footer() {
               />
           </div>
           <div className="col-12 col-lg-6 mt-4">
-              <h3>Tahfiz Hakkinda</h3>
+              <h3>Tahfiz Hakkında</h3>
               <ul className="px-1">
                 <li><a href="https://tahfiz.org/tr/" target="_blank">Tahfiz Websitesi</a></li>
               </ul>
