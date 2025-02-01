@@ -4,11 +4,10 @@ import { motion } from "framer-motion";
 import BorderPattern from "@/public/branding/border-pattern.svg";
 
 const programItems = [
-  { title: "Kurra hafızlarindan Kuran-ı-Kerim tilaveti", time: "19:00-19:45" },
-  { title: "Hafızlaridan ilahi ziyafeti", time: "19:45-20:15" },
-  { title: "Sohbet", time: "20:15-20:45" },
-  { title: "Duâ ve hediye takdimi", time: "20:45-21:15" },
-  { title: "Kapanış Konuşması", time: "21:15-21:30" },
+  { title: "Tilavet ve Ilahiler", time: "19:00-19:45" },
+  { title: "Hafızlaridan kısa sureler", time: "19:45-20:15" },
+  { title: "Sohbet", time: "20:15-20:35" },
+  { title: "Hediye takdimi", time: "20:35-21:00" }
 ];
 
 const ProgramItem = ({ title, time }: { title: string; time: string }) => (
@@ -34,7 +33,7 @@ export default function ProgramBlock() {
         <div className="row py-4 px-3">
           <div className="col-12 col-lg-6 d-flex flex-column">
             <h2 className="text-primary fw-bold">Program</h2>
-            <p>Programımız ücretsizdir ve 2,5 saat sürecektir.</p>
+            <p>Programımız ücretsizdir ve 2 saat sürecektir.</p>
           </div>
           <div className="col-12 col-lg-6 py-4 py-lg-0">
             {programItems.map((item, index) => (
