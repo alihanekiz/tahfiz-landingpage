@@ -14,8 +14,7 @@ export default function ParkingInfo() {
     "/images/plan3.jpeg",
   ];
 
-  const handleOpenOverlay = (e: Event) => {
-    // prevent link navigation if you replaced <a> with <button>
+  const handleOpenOverlay = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setShowOverlay(true);
   };
