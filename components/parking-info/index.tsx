@@ -4,10 +4,8 @@ import { motion } from "motion/react";
 import "./index.scss";
 
 export default function ParkingInfo() {
-  // State to track whether overlay is open
   const [showOverlay, setShowOverlay] = useState(false);
 
-  // Example images to display in overlay
   const images = [
     "/images/plan1.jpeg",
     "/images/plan2.jpeg",
@@ -68,7 +66,6 @@ export default function ParkingInfo() {
                 Koltuk numaranız girişte size verilen yönlendirme kağıtlarında mevcuttur. Oturma planına erişmek için 
                 lütfen tıklayınız:
               </p>
-              {/* Instead of a direct link, use a button that opens the overlay */}
               <button className="btn btn-primary" onClick={handleOpenOverlay}>
                 Oturma Planı
               </button>
