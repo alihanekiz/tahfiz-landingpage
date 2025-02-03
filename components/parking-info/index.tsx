@@ -76,7 +76,7 @@ export default function ParkingInfo() {
 
             <div className="col-12 col-lg-6 d-flex flex-column py-5 py-lg-0" id="kermes">
               <h2 className="text-primary fw-bold py-2">Bu programda ikram var mı?</h2>
-              <p>Program öncesi ve program sonrası kafeterya bölümünde ikram olacaktır.</p>
+              <p>Program öncesi ve sonrası kafeteryada yiyecek ve içecekler ücret karşılığında temin edilebilir.</p>
             </div>
           </div>
         </div>
