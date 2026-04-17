@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import BorderPattern from "@/public/branding/border-pattern.svg";
 
 const programItems = [
-  { title: "Tilavet ve Ilahiler", time: "19:00-19:45" },
-  { title: "Hafızlaridan kısa sureler", time: "19:45-20:15" },
-  { title: "Sohbet", time: "20:15-20:35" },
-  { title: "Hediye takdimi", time: "20:35-21:00" }
+  { title: "Tilavet ve Ilahiler", time: "15:00-15:45" },
+  { title: "Hafızlaridan kısa sureler", time: "15:45-16:15" },
+  { title: "Sohbet", time: "16:15-16:35" },
+  { title: "Hediye takdimi", time: "16:35-17:00" }
 ];
 
 const ProgramItem = ({ title, time }: { title: string; time: string }) => (

@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Hero/>
-      <Countdown eventDate={"2025-02-07T19:00:00"} />
+      <Countdown eventDate={"2026-05-16T15:00:00"} />
       <ProgramBlock/>
       <ParkingInfo/>
       <StickyButtons/>
